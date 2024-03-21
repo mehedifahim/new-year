@@ -1,0 +1,104 @@
+.banner-photo img{
+    /* position: relative; */
+    display: block;
+    margin: auto;
+    width:80%;
+    filter:brightness(50%);
+
+}
+
+
+.banner-text{
+    position: absolute;
+    left: 30%;
+    top: 28%;
+    text-align: center;
+    color:aliceblue;
+    
+}
+
+.banner-text > h4{
+    font-size:20px;
+}
+
+.banner-text > h2{
+    font-size: 40px;
+}
+
+.discount-container{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.discount-container> h1, .discount-container> h4 {
+    color: crimson;
+}
+
+.discount-container> h2{
+    font-size:30px;
+}
+
+.discount-container > img {
+    width: 40%;
+    margin-bottom: 50px;
+}
+/* .container-imgtext{
+    display: flex;
+
+} */
+.midnight-party{
+    position: relative;
+    margin-bottom: 70px;
+}
+.midnight-party img{
+    
+    display: block;
+    margin: auto;
+    width:80%;
+    filter: brightness(50%);
+
+}
+
+
+.container-imgtext{
+    display: flex;
+    position:absolute;
+    top:5em;
+    color:#fff;
+    left: 10em;
+    right:15em;
+}
+
+.inner-text > button{
+    padding:10px 20px;
+    background-color: #270c0c;
+    color: #fff;
+    border: none;
+    
+}
+
+
+.y2024> img{
+    width:100%;
+    height:auto;
+
+}
+
+.inner-text > h2{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.event-time{
+    width: 80%;
+    margin:auto;
+    border-radius: 10px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 12px;
+    background-image: linear-gradient( #ffa4a4,#fff);
+}
+.event-info{
+    color:#e80f0f;
+
+}
